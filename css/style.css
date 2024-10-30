@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #343a40;
-    --dark: #343a40;
+    --primary: #dd7c36;
+    --dark: #dd7c36;
 }
 
 html {
@@ -483,32 +483,32 @@ h6,
 }
 
 .bg-about {
-    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/about.webp) center center no-repeat;
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/about-b.webp) center center no-repeat;
     background-size: cover;
 }
 
 .bg-heatislands {
-    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/heatislands.webp) center center no-repeat;
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/heatislands-b.webp) center center no-repeat;
     background-size: cover;
 }
 
 .bg-cooling {
-    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/cooling.webp) center center no-repeat;
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/cooling-b.webp) center center no-repeat;
     background-size: cover;
 }
 
 .bg-green {
-    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/green.webp) center center no-repeat;
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/green-b.webp) center center no-repeat;
     background-size: cover;
 }
 
 .bg-education {
-    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/education.webp) center center no-repeat;
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/education-b.webp) center center no-repeat;
     background-size: cover;
 }
 
 .bg-policy {
-    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/policy.webp) center center no-repeat;
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/policy-b.webp) center center no-repeat;
     background-size: cover;
 }
 
