@@ -512,6 +512,11 @@ h6,
     background-size: cover;
 }
 
+.bg-contact {
+    background: /*linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)),*/ url(../img/contact-b.webp) center center no-repeat;
+    background-size: cover;
+}
+
 .stroke {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;

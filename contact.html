@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>UHRI - Contact</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Favicon -->
+	<link href="img/icono.png" rel="icon">
+
+	<!-- Google Web Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Icon Font Stylesheet -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+	<!-- Libraries Stylesheet -->
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/animate/animate.min.css" rel="stylesheet">
+
+	<!-- Customized Bootstrap Stylesheet -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Template Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id="home" class="bg-white">
+
+	<!--Cargador-->
+	<div id="spinner" class="show bg-light position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+		<div class="spinner"></div>
+	</div>
+
+	<!--Menu-->
+	<div class="container-fluid position-relative p-0 bg-dark">
+
+		<nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0 bg-white">
+			<a href="index.html" class="navbar-brand p-0">
+				<h1 class="m-0 text-dark"><img src="img/menu.webp" alt="Logo" width="150px"--></h1>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav ms-auto py-0">
+					<a href="index.html" class="nav-item nav-link">About UHRI</a>
+					<div class="nav-item dropdown">
+						<a href="#servicios" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Services</a>
+						<div class="dropdown-menu m-0">
+							<a href="cooling.html" class="dropdown-item">Cooling Solutions Implementation</a>
+							<a href="green.html" class="dropdown-item">Green Urban Development</a>
+							<a href="education.html" class="dropdown-item">Education and Training</a>
+							<a href="policy.html" class="dropdown-item">Policy Advocacy</a>
+						</div>
+					</div>
+					<a href="heatislands.html" class="nav-item nav-link">What is Heat Islands?</a>
+					<a href="contact.html" class="nav-item nav-link active">Contact</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container-fluid py-5 bg-contact stroke">
+		<div class="row py-5">
+			<div class="col-12 pt-lg-5 mt-lg-5 text-center">
+				<br><br><br>
+			</div>
+		</div>
+	</div>
+
+	<div class="site-section" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-7 text-center mb-5">
+					<br><br>
+					<h2>Contact Us</h2>
+					<p>Contact us for any questions!</p>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-lg-8 mb-5">
+					<form action="send_mail.php" method="post"> <!-- Cambia a tu archivo PHP -->
+						<div class="form-group row">
+							<div class="col-md-6 mb-4 mb-lg-0">
+								<input type="text" class="form-control" placeholder="First name" name="first_name" required>
+							</div><br><br>
+							<div class="col-md-6">
+								<input type="text" class="form-control" placeholder="Last name" name="last_name" required>
+							</div><br><br>
+						</div>
+
+						<div class="form-group row">
+							<div class="col-md-12">
+								<input type="email" class="form-control" placeholder="Email address" name="email" required>
+							</div>
+						</div><br>
+
+						<div class="form-group row">
+							<div class="col-md-12">
+								<textarea name="message" class="form-control" placeholder="Write your message." cols="30" rows="10" required></textarea>
+							</div>
+						</div><br><br>
+						<div class="form-group row">
+							<div class="col-md-6 mr-auto">
+								<input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
+							</div>
+						</div><br><br>
+					</form>
+				</div>
+				<div class="col-lg-4 ml-auto">
+					<div class="bg-white p-3 p-md-5">
+						<h3 class="text-black mb-4">Contact Info</h3>
+						<ul class="list-unstyled footer-link">
+							<!--li class="d-block mb-3">
+								<span class="d-block text-black">Address:</span>
+								<span>34 Street Name, City Name Here, United States</span>
+							</li-->
+							<li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+1 (407) 435-0628</span></li>
+							<li class="d-block mb-3"><span class="d-block text-black">Email:</span><span>info@urbanheatrelief.com</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<div class="container-fluid bg-light text-dark mt-5 wow fadeInUp" data-wow-delay="0.1s">
+		<div class="container">
+			<div class="row gx-5">
+				<div class="col-lg-4 col-md-6 footer-about">
+					<div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+						<a href="index.html" class="navbar-brand">
+							<h1 class="m-0 text-white"><img src="img/foot.png" alt="Logo" style="padding: 5px; border-radius: 5px;" width="150px"></h1>
+						</a>
+						<small>
+							<p class="mt-3 mb-4 text-white">Welcome to the Urban Heat Relief Initiative (UHRI), where our mission is to create cooler, healthier, and more resilient urban environments for everyone. At UHRI, we are dedicated to mitigating the adverse effects of Urban Heat Islands (UHIs) that disproportionately impact vulnerable communities, including older adults, low-income populations, and individuals with health conditions.</p>
+						</small>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-6">
+					<div class="row gx-5">
+						<div class="col-lg-4 col-md-12 pt-5 mb-5">
+							<div class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-dark mb-0">Contact</h3>
+							</div>
+							<!--div class="d-flex mb-2">
+								<i class="bi bi-geo-alt text-dark me-2"></i>
+								<p class="mb-0">Addres:</p>
+							</div-->
+							<div class="d-flex mb-2">
+								<i class="bi bi-envelope-open text-dark me-2"></i>
+								<p class="mb-0">info@urbanheatrelief.com</p>
+							</div>
+							<div class="d-flex mb-2">
+								<i class="bi bi-telephone text-dark me-2"></i>
+								<p class="mb-0">+1 (407) 435-0628</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+							<div class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-dark mb-0">Services</h3>
+							</div>
+							<div class="link-animated d-flex flex-column justify-content-start">
+								<a class="text-dark mb-2" href="cooling.html"><i class="bi bi-arrow-right text-dark me-2"></i>Cooling Solutions Implementation</a>
+								<a class="text-dark mb-2" href="green.html"><i class="bi bi-arrow-right text-dark me-2"></i>Green Urban Development</a>
+								<a class="text-dark mb-2" href="education.html"><i class="bi bi-arrow-right text-dark me-2"></i>Education and Training</a>
+								<a class="text-dark mb-2" href="policy.html"><i class="bi bi-arrow-right text-dark me-2"></i>Policy Advocacy</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+							<div class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-dark mb-0">Navegation</h3>
+							</div>
+							<div class="link-animated d-flex flex-column justify-content-start">
+								<a class="text-dark mb-2" href="index.html"><i class="bi bi-arrow-right text-dark me-2"></i>About UHRI</a>
+								<a class="text-dark mb-2" href="#services"><i class="bi bi-arrow-right text-dark me-2"></i>Our Services</a>
+								<a class="text-dark mb-2" href="heatislands.html"><i class="bi bi-arrow-right text-dark me-2"></i>What is Heat Islands?</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-white" style="background: #343a40;">
+		<div class="container text-center">
+			<div class="row justify-content-end">
+				<div class="col-lg-8 col-md-6">
+					<div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+						<p class="mb-0">&copy; <a class="text-white border-bottom" href="https://">UHRI</a>. All Rights Reserved -
+							Design by <a class="text-white border-bottom" href="https://avilariosdiego.github.io/freelancer">Diego Avila</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--JavaScript-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/waypoints/waypoints.min.js"></script>
+	<script src="lib/counterup/counterup.min.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+	<!--UHRI Javascript-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
